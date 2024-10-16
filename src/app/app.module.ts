@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { StringInterpolationComponent } from './string-interpolation/string-interpolation.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { DirectivesComponent } from './directives/directives.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { EventBindingComponent } from './event-binding/event-binding.component';
     DataBindingComponent,
     StringInterpolationComponent,
     PropertyBindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule,

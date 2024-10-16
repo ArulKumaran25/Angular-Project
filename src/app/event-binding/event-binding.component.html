@@ -4,5 +4,6 @@
 <button (click)="clickMe()">Click Me!</button>
 <p>You hae Clicked {{clickCount}} times</p>
 
-Type Something : <input type="text" (input)="handleInput()">
-<p>{{value}}</p>
+Type Something : <input type="text" (input)="handleInput($event); value1=$any($event.target).value">
+<p>with handleInput : {{value}}</p>
+<p>without handleInput : {{value1}}</p>

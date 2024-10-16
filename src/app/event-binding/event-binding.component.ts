@@ -13,8 +13,9 @@ export class EventBindingComponent {
   }
 
   value=''
-  handleInput(){
-    this.value=' ';
+  value1=''
+  handleInput(event:any){
+    this.value=(event.target as HTMLInputElement).value;
   } 
  
 
