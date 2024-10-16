@@ -1,0 +1,16 @@
+<p>Data-binding works!</p>
+
+
+<!-- // oneway binding -->
+<h2>{{firstName}}{{lastName}}</h2> <!--String interpolation {{}}-->
+
+
+<!--Property Binding-->
+<h3 [innerText]="title"></h3>
+
+
+<!--Two Way Binding-->
+<h2>{{context}}</h2>
+
+<input type="text" [(ngModel)]="context">
+<br>
