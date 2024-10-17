@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./string-interpolation.component.css']
 })
 export class StringInterpolationComponent {
-     title='String Interpolation example'
-     color='red';
-     name="Learn Sring Interpolation";
+     title=' Example for String Interpolation'
+     color='Brown';
 
+     name="Example for calling the function String Interpolation";
      getTitle(){
       return this.name
      }

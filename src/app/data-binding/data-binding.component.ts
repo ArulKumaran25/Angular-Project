@@ -9,7 +9,5 @@ export class DataBindingComponent {
   firstName='Arul';
   lastName='Kumaran';
 
-  title='Learning the Property binding in Angular';
-
-  context='Two-way Binding in Angular';
+  context='Enter the text here';
 }
