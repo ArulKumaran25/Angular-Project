@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class DirectivesComponent {
   title='List of Movies';
   title1='Movies and its Directors';
+  num=0;
+  showMe=true;
 
   movies=[
     'Leo',
@@ -22,5 +24,4 @@ export class DirectivesComponent {
     {title:'Good-bad-ugly',director:'Aadhik'}
 
   ]
-
 }
