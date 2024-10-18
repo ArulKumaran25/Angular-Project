@@ -24,4 +24,12 @@ export class DirectivesComponent {
     {title:'Good-bad-ugly',director:'Aadhik'}
 
   ]
+
+  enableRed=false;
+  enableBig=false;
+  enableItalics=false;
+
+
+  status='success';
+  color='black';
 }

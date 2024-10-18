@@ -9,6 +9,7 @@ import { StringInterpolationComponent } from './string-interpolation/string-inte
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { DirectivesComponent } from './directives/directives.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DirectivesComponent } from './directives/directives.component';
     StringInterpolationComponent,
     PropertyBindingComponent,
     EventBindingComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,

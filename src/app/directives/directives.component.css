@@ -1,6 +1,18 @@
 h4{
-    color:brown;
+    color:darkblue;
 }
 h2{
     color: darkblue;
+}
+h3{
+    color: brown;
+}
+.italics{
+    font-style: italic;
+}
+.primary{
+    color: red;
+}
+.big{
+    font-size: larger;
 }

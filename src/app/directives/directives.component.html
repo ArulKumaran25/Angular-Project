@@ -1,6 +1,7 @@
 <h2>Directives works!</h2>
-<p>Using ngFor Concept:</p>
-
+<br>
+<h3>ngFor Example</h3>
+<br>
 <h4>{{title}}</h4>  <!--ngFor-->
 <ul>
     <li *ngFor="let movie of movies">
@@ -45,7 +46,8 @@
 </div>
 <br>
 
-<h2>ngSwitch Example</h2>
+<h3>ngSwitch Example</h3>
+<br>
 <label for="">Type num</label> <!--ngSwitch-->
 <input type="text" [(ngModel)]="num">
 <div [ngSwitch]="num">
@@ -55,10 +57,12 @@
     <div *ngSwitchCase="4">four</div>
     <div *ngSwitchDefault="">Default value</div>
 </div>
+<br>
 
 <!--ngIf-->
 
-<h2>ngIf Example</h2>
+<h3>ngIf Example</h3>
+<br>
 <p *ngIf="true">Can you see me ?</p>
 <div class="row">
    <label for="">checkbox : <input type="checkbox" [(ngModel)]="showMe"></label> 
@@ -70,6 +74,41 @@
     <p>Show me is unchecked</p>
 </ng-template>
 
-<div [ngClass]="['primary', 'big']">
+<!--ngClass Example-->
+
+<!-- <div [ngClass]="{'primary':true}">
     Sample text
+</div> -->
+<h3>ngClass Example</h3>
+<br>
+Red <input type="checkbox" [(ngModel)]="enableRed">
+Big <input type="checkbox" [(ngModel)]="enableBig">
+Italics <input type="checkbox" [(ngModel)]="enableItalics">
+
+<div [ngClass]="
+{
+    'primary':enableRed,
+    'big':enableBig,
+    'italics':enableItalics
+}">
+
+ Sample text
 </div>
+<br>
+
+<!--ngStyle Example-->
+<h3>ngStyle Example</h3>
+<br>
+<div [ngStyle]="{'color':status=='error'?'red':'blue'}">Sample for ngStyle</div>
+ <div [ngStyle]="{
+    'color':'purple',
+    'font-size':'20px',
+    'font-weight':'bold'
+    
+ }"> Sample for ngStyle</div>
+
+
+Enter the Color to be Changed - <input type="text" [(ngModel)]="color">
+<div [ngStyle]="{
+    'color':color,
+}">Color Changed !!</div>
