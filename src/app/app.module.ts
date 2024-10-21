@@ -10,6 +10,8 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { PipesComponent } from './pipes/pipes.component';
+import { FormComponent } from './form/form.component';
+import { ListComponent } from './list/list.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { PipesComponent } from './pipes/pipes.component';
     PropertyBindingComponent,
     EventBindingComponent,
     DirectivesComponent,
-    PipesComponent
+    PipesComponent,
+    FormComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
