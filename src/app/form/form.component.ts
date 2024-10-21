@@ -6,7 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./form.component.css']
 })
 export class FormComponent {
-  cars=[];
+  cars:string[]=[];
   carName="";
+
+  addCar(){
+    this.cars.push(this.carName);
+    this.carName="";
+    console.log(this.cars);
+    
+  }
 
 }
