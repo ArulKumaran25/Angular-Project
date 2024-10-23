@@ -13,6 +13,8 @@ export class FormComponent {
     this.cars.push(this.carName);
     this.carName="";
     console.log(this.cars);
+
+
     
   }
 
