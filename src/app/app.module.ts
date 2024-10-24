@@ -12,6 +12,7 @@ import { DirectivesComponent } from './directives/directives.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { FormComponent } from './form/form.component';
 import { ListComponent } from './list/list.component';
+import { HeadingComponent } from './heading/heading.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ListComponent } from './list/list.component';
     DirectivesComponent,
     PipesComponent,
     FormComponent,
-    ListComponent
+    ListComponent,
+    HeadingComponent
   ],
   imports: [
     BrowserModule,
