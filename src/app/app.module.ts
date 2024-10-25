@@ -12,7 +12,8 @@ import { DirectivesComponent } from './directives/directives.component';
 import { PipesComponent } from './pipes/pipes.component';
 import { FormComponent } from './form/form.component';
 import { ListComponent } from './list/list.component';
-import { HeadingComponent } from './heading/heading.component';
+import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { HeadingComponent } from './heading/heading.component';
     PipesComponent,
     FormComponent,
     ListComponent,
-    HeadingComponent
+    TemplateDrivenFormComponent
   ],
   imports: [
     BrowserModule,
