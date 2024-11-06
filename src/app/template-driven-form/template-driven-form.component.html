@@ -3,34 +3,34 @@
 <form #contactForm="ngForm"  (submit)="onSubmit(contactForm)">
     <p>
         <label for="firstname">First Name</label>
-        <input type="text" id="firstname" name="firstname">
+        <input type="text" id="firstname" name="firstname" ngModel>
     </p>
 
     <p>
         <label for="lastname"> Last Name</label>
-        <input type="text" id="lastname" name="lastname">
+        <input type="text" id="lastname" name="lastname" ngModel>
     </p>
 
     <p>
         <label for="email"> Email</label>
-        <input type="text" id="email" name="email">
+        <input type="text" id="email" name="email" ngModel>
     </p>
 
     <p>
         <label for="gender">Gender</label>
-        <input type="radio" value="male" id="gender" name="gender">
-        <input type="radio" value="female" id="gender" name="gender">
+        <input type="radio" value="male" id="gender" name="gender" ngModel>Male
+        <input type="radio" value="female" id="gender" name="gender" ngModel>Female
 
     </p>
 
     <p>
         <label for="isMarried">Married</label>
-        <input type="checkbox" id="isMarried" name="isMarried">
+        <input type="checkbox" id="isMarried" name="isMarried" ngModel>
     </p>
 
     <p>
         <label for="country">Country</label>
-        <select name="country" id="country">
+        <select name="country" id="country" ngModel>
         <option  value="">Select</option>
         <option ngValue="country.id" *ngFor="let country of countryList">
             {{country.name}}
