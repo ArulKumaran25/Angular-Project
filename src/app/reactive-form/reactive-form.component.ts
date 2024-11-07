@@ -16,4 +16,9 @@ export class ReactiveFormComponent {
     country:new FormControl()
   })
 
+  onSubmit(){
+    console.log(this.contactForm.value);
+    
+  }
+
 }
