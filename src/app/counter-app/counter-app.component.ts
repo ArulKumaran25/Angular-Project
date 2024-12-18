@@ -13,7 +13,6 @@ export class CounterAppComponent {
   decrement(){
     this.count--;
   }
-
   reset(){
     this.count=0;
   }
