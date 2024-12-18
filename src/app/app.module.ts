@@ -14,6 +14,7 @@ import { FormComponent } from './form/form.component';
 import { ListComponent } from './list/list.component';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
+import { CounterAppComponent } from './counter-app/counter-app.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
     FormComponent,
     ListComponent,
     TemplateDrivenFormComponent,
-    ReactiveFormComponent
+    ReactiveFormComponent,
+    CounterAppComponent
   ],
   imports: [
     BrowserModule,
